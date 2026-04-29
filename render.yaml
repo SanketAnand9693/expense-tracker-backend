@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: expense-tracker-backend
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
